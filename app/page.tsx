@@ -1,6 +1,10 @@
+import { Button } from "@/components/ui/button"
+
 const page = () => {
   return (
-    <div>page</div>
+    <div className='flex justify-center h-screen items-center'>
+      <Button>Click Me!</Button>
+    </div>
   )
 }
 
